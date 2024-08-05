@@ -1,0 +1,307 @@
+*{
+    font-family: "Playwrite CU", cursive;
+    margin: 0px;
+    padding: 0px;
+   
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    background-color: rgb(28, 103, 136);
+    
+}
+
+#navbar img{
+    padding-left: 5%;
+    width: 8%;
+    height: 8%;
+
+}
+
+
+
+.listitems{
+    
+    list-style: none;
+    display: inline;
+    margin-left: 60px;
+    
+}
+
+
+
+
+
+.listitems a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.listitems a:hover{
+    color: rgb(255, 215, 0);
+}
+
+
+#welcome{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Images/pexels-dhiraj-jain-207743066-12737817.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#dark{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.598);
+
+}
+
+#welcome h1{
+    padding-top: 20%;
+    padding-left: 2%;
+    font-weight: 600;
+    color: white;
+}
+
+#welcome h2{
+    padding-left: 2%;
+    font-weight: 600;
+    color: white;
+}
+
+span{
+    color: rgb(255, 215, 0) ;
+}
+
+#menu_btn{
+    border: 2px solid white;
+    border-radius: 0%;
+    padding: 15px 30px;
+    margin-left: 5%;
+    text-decoration: none;
+    color: rgb(255, 215, 0) ;   
+}
+
+#menu_btn:hover{
+    background-color: rgb(28, 103, 136);
+}
+
+#menu{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(28, 103, 136);
+    
+}
+
+#menu h1{
+    text-align: center;
+    color: rgb(255, 215, 0) ;
+    padding-top: 20px;
+}
+
+#menu_content{
+    padding-top: 30px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.menuitems{
+    height: 90%;
+    background-color: rgb(28, 103, 136);
+
+}
+
+
+
+
+
+.menuitems img{
+    height: 60%;
+}
+
+.menuitems_btn{
+    border: 2px solid white;
+    border-radius: 0%;
+    padding: 15px 30px;
+    margin-left: 5%;
+    text-decoration: none;
+    color: rgb(255, 215, 0) ;
+
+}
+
+.menuitems h3{
+    color:rgb(255, 215, 0) ;
+    font-weight: bolder;
+}
+
+.menuitems h4 {
+    color: white;
+}
+
+.menuitems p{
+    color: rgba(255, 255, 255, 0.772);
+}
+
+
+
+.menuitems_btn:hover{
+    background-color:rgb(255, 215, 0) ;
+    color:rgb(28, 103, 136) ;
+}
+
+#chefs{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(28, 103, 136);
+
+}
+
+#chefs h1{
+    text-align: center;
+    color: rgb(255, 215, 0) ;
+    padding-top: 20px;
+}
+
+#contacts{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(28, 103, 136);
+}
+
+#contacts h1{
+    text-align: center;
+    color: rgb(255, 215, 0) ;
+    padding-top: 20px;
+}
+
+#icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    padding: 50px 50px;
+    margin: 5%;
+    width: 20px;
+    height: 20px;
+    font-size: 40px;
+    border: 1px solid rgb(28, 103, 136);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon i{
+    color: black;
+}
+
+footer{
+    color:rgb(255, 215, 0) ;
+    background-color: black;
+    width: 100%;
+    height: 20%;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.up_arrow{
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+
+}
+
+.up_arrow i{
+    color: white;
+}
+
+.icon:hover{
+    background-color: black;
+    animation: anime 1s;
+    
+}
+
+.icon:hover i{
+    color:rgb(255, 215, 0) ;
+}
+
+.up_arrow:hover{
+    background-color: rgb(28, 103, 136);
+    animation: anime 1s;
+
+}
+
+.up_arrow:hover i{
+    color:rgb(255, 215, 0) ;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@keyframes anime{
+    0%{
+        rotate: 0deg;
+    }
+
+    25%{
+        rotate: 90deg;
+    }
+    50%{
+        rotate: 180deg;
+        
+    }
+    75%{
+        rotate: 270deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
